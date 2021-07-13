@@ -18,7 +18,7 @@ const app = express()
 
 
 app.get('/student', function(req, res) {
-    res.send('<h1>hello, friend</h1>')
+    res.send('<h1>hello, friend</h1>')})
 
 
 // Tell the app to listen on port 3000
